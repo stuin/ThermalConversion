@@ -10,7 +10,6 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     //Basic items
-    public static final Item cell0;
     public static final Item cell1;
     public static final Item cell2;
     public static final Item cell8;
@@ -18,7 +17,6 @@ public class ModItems {
 
     //Initialize full list
     static {
-        cell0 = new Item(new Item.Settings().itemGroup(ItemGroup.MISC));
         cell1 = new Item(new Item.Settings().itemGroup(ItemGroup.MISC));
         cell2 = new Item(new Item.Settings().itemGroup(ItemGroup.MISC));
         cell8 = new Item(new Item.Settings().itemGroup(ItemGroup.MISC));
@@ -27,7 +25,6 @@ public class ModItems {
 
     //Register items rendering
     public static void register() {
-        registerItem("cell0", cell0);
         registerItem("cell1", cell1);
         registerItem("cell2", cell2);
         registerItem("cell8", cell8);
