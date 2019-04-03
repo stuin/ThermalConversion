@@ -1,0 +1,17 @@
+{
+  "id": "thermalconversion",
+  "name": "Thermal Conversion",
+  "description": "Universal energy conversion through vanilla smelting mechanics.",
+  "version": "3.0",
+  "side": "universal",
+  "initializers": [
+    "com.stuintech.thermalconversion.ThermalConversion"
+  ],
+  "requires": {
+    "fabric": "*"
+  },
+  "mixins": {
+    "client": "thermalconversion.client.json",
+    "common": "thermalconversion.common.json"
+  }
+}

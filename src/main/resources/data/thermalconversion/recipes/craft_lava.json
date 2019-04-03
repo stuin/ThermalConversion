@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermalconversion:cell64"
+    },
+    {
+      "item": "thermalconversion:cell64"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lava_bucket"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermalconversion:cell64"
+    }
+  ],
+  "result": {
+    "item": "thermalconversion:cell8",
+    "count": 8
+  }
+}
