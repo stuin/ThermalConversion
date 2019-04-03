@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "thermalconversion:cell0"
-  },
-  "result": "thermalconversion:cell2",
-  "experience": 10,
-  "cookingtime": 200
-}
