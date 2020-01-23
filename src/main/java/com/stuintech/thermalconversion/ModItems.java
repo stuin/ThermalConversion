@@ -17,10 +17,10 @@ public class ModItems {
 
     //Initialize full list
     static {
-        cell1 = new Item(new Item.Settings().itemGroup(ItemGroup.MISC));
-        cell2 = new Item(new Item.Settings().itemGroup(ItemGroup.MISC));
-        cell8 = new Item(new Item.Settings().itemGroup(ItemGroup.MISC));
-        cell64 = new Item(new Item.Settings().itemGroup(ItemGroup.MISC));
+        cell1 = new Item(new Item.Settings().group(ItemGroup.MISC));
+        cell2 = new Item(new Item.Settings().group(ItemGroup.MISC));
+        cell8 = new Item(new Item.Settings().group(ItemGroup.MISC));
+        cell64 = new Item(new Item.Settings().group(ItemGroup.MISC));
     }
 
     //Register items rendering
