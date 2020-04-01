@@ -1,17 +1,35 @@
 {
+  "schemaVersion": 1,
   "id": "thermalconversion",
+  "version": "3.1",
+
   "name": "Thermal Conversion",
   "description": "Universal energy conversion through vanilla smelting mechanics.",
-  "version": "3.0",
-  "side": "universal",
-  "initializers": [
-    "com.stuintech.thermalconversion.ThermalConversion"
+  "authors": [
+    "Stuin"
   ],
-  "requires": {
-    "fabric": "*"
+  "contact": {
+    "homepage": "https://stuintech.com/minecraft",
+    "sources": "https://github.com/stuin/ThermalConversion"
   },
-  "mixins": {
-    "client": "thermalconversion.client.json",
-    "common": "thermalconversion.common.json"
+
+  "icon": "assets/thermalconversion/textures/item/cell8.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.stuintech.thermalconversion.ThermalConversion"
+    ]
+  },
+  "mixins": [
+    {
+      "environment": "*",
+      "config": "thermalconversion.mixins.json"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.8",
+    "fabric": "*"
   }
 }
