@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="thermalconversion"
+version="${version}"
+displayName="Thermal Conversion"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/thermal-conversion"
+issueTrackerURL="http://github.com/stuin/ThermalConversion/issues"
+logoFile="cell2.png"
+authors="Stuin"
+description='''
+Universal energy conversion through vanilla smelting mechanics.
+'''
