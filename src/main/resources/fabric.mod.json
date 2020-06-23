@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "thermalconversion",
-  "version": "3.1",
+  "version": "3.2.0",
 
   "name": "Thermal Conversion",
   "description": "Universal energy conversion through vanilla smelting mechanics.",
@@ -29,7 +29,6 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.4.8",
-    "fabric": "*"
+    "fabricloader": ">=0.8.8"
   }
 }
