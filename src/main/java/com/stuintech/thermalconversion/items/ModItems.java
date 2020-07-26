@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            new DeferredRegister<>(ForgeRegistries.ITEMS, ThermalConversion.MODID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, ThermalConversion.MODID);
     
     //Basic items
     public static RegistryObject<FuelItem> cell1 = ITEMS.register("cell1", () -> new FuelItem(200));

@@ -1,9 +1,9 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[32,)"
 
 [[mods]]
 modId="thermalconversion"
-version="${version}"
+version="3.3.0"
 displayName="Thermal Conversion"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/thermal-conversion"
 issueTrackerURL="http://github.com/stuin/ThermalConversion/issues"
