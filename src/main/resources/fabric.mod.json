@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "thermalconversion",
-  "version": "3.2.0",
+  "version": "${version}",
 
   "name": "Thermal Conversion",
   "description": "Universal energy conversion through vanilla smelting mechanics.",
@@ -27,6 +27,13 @@
       "config": "thermalconversion.mixins.json"
     }
   ],
+
+  "custom": {
+    "modupdater": {
+      "strategy": "curseforge",
+      "projectID": 247539
+    }
+  },
 
   "depends": {
     "fabricloader": ">=0.8.8"
